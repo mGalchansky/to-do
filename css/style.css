@@ -1,3 +1,103 @@
 body {
   background-color: #3f72af;
 }
+h1 {
+  font-size: 40px;
+  /*margin-left: auto;
+  margin-right: auto;*/
+  text-align: center;
+  padding-top: 20px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: normal;
+}
+#Card {
+  background-color: white;
+  width: 600px;
+  height: 450px;
+  border-radius: 20px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+#new_tasck {
+  width: 205px;
+  height: 32px;
+  margin-right: 0;
+  /*border-radius: 5px;*/
+  background-color: #dbe2ef;
+  border-color: #dbe2ef;
+}
+#new_tasck_button {
+  width: 45;
+  height: 32;
+  margin-left: 0;
+}
+button {
+  width: 45;
+  height: 32;
+  font-size: 20px;
+}
+#tasck {
+  width: 490px;
+  height: 55px;
+  background-color: #dbe2ef;
+  border-color: #dbe2ef;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+
+#line {
+  opacity: 50%;
+  padding-top: 10px;
+}
+
+.ubuntu-light {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.ubuntu-regular {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ubuntu-medium {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ubuntu-bold {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ubuntu-light-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.ubuntu-regular-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.ubuntu-medium-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.ubuntu-bold-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
