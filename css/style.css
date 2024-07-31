@@ -20,7 +20,7 @@ h1 {
   margin-right: auto;
   margin-top: 50px;
 }
-#new_tasck {
+#new_tasks {
   width: 205px;
   height: 32px;
   margin-right: 0;
@@ -28,7 +28,7 @@ h1 {
   background-color: #dbe2ef;
   border-color: #dbe2ef;
 }
-#new_tasck_button {
+#new_tasks_button {
   width: 45;
   height: 32;
   margin-left: 0;
@@ -38,7 +38,7 @@ button {
   height: 32;
   font-size: 20px;
 }
-#tasck {
+#tasks {
   width: 490px;
   height: 55px;
   background-color: #dbe2ef;

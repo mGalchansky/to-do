@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -16,18 +17,28 @@
   <body>
     <div id="Card">
       <h1>To Do App</h1>
-      <form>
+      <form method="POST" action="php/scrypt.php">
         <label>
-          <input id="new_tasck" type="text" />
+          <input id="new_tasks" type="text" name="new_tasks" />
         </label>
-        <button id="new_tasck_button" type="submit">+</button>
+        <button id="new_tasks_button" type="submit" >+</button>
       </form>
       <div id="line">
         _______________________________________________________________
       </div>
-      <div id="tasck"></div>
-      <div id="tasck"></div>
-      <div id="tasck"></div>
+     
+      <?php 
+      require_once "/OSPanel/home/ToDoApp/php/scrypt.php";
+      require_once "/OSPanel/home/ToDoApp/php/db.php";
+      $res = mysqli_query($conn, "SELECT * FROM `to_do_list`");
+      while($tsk = mysqli_fetch_assoc($res)){ ?>
+        <div id="tasks"> <?php echo $tsk['tasks']?></div>
+        <?php }
+      ?>
+
+      <div id="tasks"></div>
+      <div id="tasks"></div>
+      <div id="tasks"></div>
     </div>
   </body>
 </html>
